@@ -2,6 +2,7 @@
   "name": "design2_buget_tracker",
   "version": "0.1.0",
   "private": true,
+  "type":"module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +11,8 @@
   },
   "dependencies": {
     "@next/font": "^14.2.15",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.13.0",
     "next": "15.1.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
